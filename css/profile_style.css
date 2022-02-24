@@ -167,6 +167,7 @@ a { color: inherit;}
 				transition:.5s;
 				text-indent: -9999px;
 				margin:20px 200px;
+				z-index: 3;
 				}
 
 .profile_image:hover { background:url('../img/profile-01.png') no-repeat 50%/contain;}
