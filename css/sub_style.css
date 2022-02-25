@@ -250,6 +250,9 @@ a { color: inherit;}
 
 
 @media ( max-width: 1440px) { 
+	.bg { width: 100%;
+		overflow-X: hidden; }
+
 .file_bg { width:88%;
 		height:calc(450px + 35vh);
 		top:40px;
@@ -339,7 +342,7 @@ a { color: inherit;}
 .pc { display: none;}
 
 .file_bg { min-width: 400px;
-		height:850px;
+		height:900px;
 		top:40px;
 		left:50%;
 		transform:translate(-50%);
@@ -380,7 +383,9 @@ a { color: inherit;}
 			}
 
 
-.tab_section { height:700px;}
+.tab_section { height:750px;
+			overflow: visible;
+			}
 
 .txt_box { top:330px ;
 		left:50%;
@@ -395,6 +400,8 @@ a { color: inherit;}
 .txt_box h2 { font-size: 35px; 
 			margin-left:0px;
 			}
+.txt_box .txt_small { font-size: 30px;
+					margin-bottom:12px;} 
 .txt_box p {}
 
 .sub_title {margin:10px 0 60px 0;}
@@ -434,12 +441,20 @@ a { color: inherit;}
 
 
 @media ( max-width: 768px) {
-	.file_bg { min-width: 400px;
+
+	
+	.bg { width: 100%;
+		overflow-X: hidden; }
+	.file_bg { min-width: 300px;
 			height:800px;}
 	.txt_box { top:240px ;
 				width:80%;
 			}
+	.txt_box::before { top:140px; }
 	.txt_box h2 {font-size:32px;}
+	
+	.txt_box .txt_small { font-size: 22px;
+	margin-bottom:12px;}
 	.mockup {width:calc(200px + 25%);}
 
 

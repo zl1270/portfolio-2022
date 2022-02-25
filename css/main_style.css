@@ -149,30 +149,25 @@ header nav { }
         height:205px;
         }
 .menu1 > a { padding-top:130px;}
-.menu2 { top:220px; 
-        left:550px;
-        width:65px;
-        height:195px;
-        }
-.menu2 > a { padding-top:40px;}
-.menu3 { bottom:30px; 
+
+.menu2 { bottom:30px; 
         left:619px;
         width:155px;
         height:185px;
         }
-.menu3 > a { padding-top:130px;}
-.menu4 { top:75px; 
+.menu2> a { padding-top:130px;}
+.menu3 { top:75px; 
         right:470px;
         width:140px;
         height:140px; 
         }
-.menu4 > a { padding-top:65px;}
-.menu5 { bottom:100px; 
+.menu3 > a { padding-top:65px;}
+.menu4 { bottom:100px; 
     right:200px;
     width:150px;
     height:180px; 
         }
-.menu5 > a { padding-top:110px;}
+.menu4 > a { padding-top:110px;}
 
 
 
@@ -208,30 +203,25 @@ header nav { }
             height:160px;
             }
     .menu1 > a { padding-top:90px;}
-    .menu2 { top:205px; 
-            left:380px;
-            width:55px;
-            height:155px;
-            }
-    .menu2 > a { padding-top:30px;}
-    .menu3 { bottom:55px; 
+
+    .menu2 { bottom:55px; 
             left:430px;
             width:130px;
             height:148px;
             }
-    .menu3 > a { padding-top:100px;}
-    .menu4 { top:90px; 
+    .menu2 > a { padding-top:100px;}
+    .menu3 { top:90px; 
             right:320px;
             width:110px;
             height:110px; 
             }
-    .menu4 > a { padding-top:50px;}
-    .menu5 { bottom:110px; 
+    .menu3 > a { padding-top:50px;}
+    .menu4 { bottom:110px; 
         right:110px;
         width:120px;
         height:145px; 
             }
-    .menu5 > a { padding-top:80px;}
+    .menu4 > a { padding-top:80px;}
         
         
 
@@ -249,20 +239,119 @@ header nav { }
 
 @media (max-width:1024px) {
 
-    .title { font-size: 68px;
-            text-align: left;
-            margin:12vh 0 0 370px;
+    .title { font-size: 60px;
+            text-align: center;
+            margin:50px auto;
             }
 
 
     .btn_wrap{ left:110px;}
     .gnb {left:90px; }
 
-    .visual_in { left:40px;
-                transform:translate(0);
-                width:1024px;
+    .visual_in { left:50%;
+                /* transform:translate(0); */
+                width:calc(300px + 45vw);
                 height:490px;
+                top:220px;
+                bottom:auto; 
                 }
+    .visual { display: none;}
 
+
+    .menu1 {top:140px; 
+        left:80px;
+        width:120px;
+        height:170px;
+        background:url("../img/mobile_menu_01.png") no-repeat 50% / contain;
+        transform: rotate(20deg);
+        }
+
+    .menu2 { bottom:55px; 
+            left:220px;
+            width:130px;
+            height:148px;
+            background:url("../img/mobile_menu_02.png") no-repeat 50% / contain;
+            transform: rotate(-7deg);
+            }
+    .menu3 { top:120px; 
+            right:220px;
+            width:110px;
+            height:110px; 
+            background:url("../img/mobile_menu_03.png") no-repeat 50% / contain;
+            }
+    .menu4 { bottom:110px; 
+            right:90px;
+            width:120px;
+            height:145px; 
+            background:url("../img/mobile_menu_04.png") no-repeat 50% / contain;
+            transform: rotate(10deg);
+            }
+
+
+}
+
+
+
+
+@media (max-width:768px){
+    html{ overflow: hidden;}
+
+    .title { margin: 30px auto;
+            font-size: 40px;
+            text-align: center;
+            }
+    .btn_wrap{ top:80px;
+                left:auto;
+                right:20px;
+                width:100px;
+                height:60px;
+                }
+    .gnb_btn { width:100px;
+            height:60px;}
+    .gnb_btn a { width:100px; 
+                height:60px;  
+                background:url('../img/menu_icon-01.png') no-repeat 50% 0 /contain;
+                }
+    .gnb_btn::before { top:-80px;
+                        left:49px;
+                        width:1px;
+                        height:80px;
+                        }
+
+    .gnb {left:auto; 
+        right:30px;
+        top:150px;
+        width:120px;
+        }
+    .gnb > li { position:relative;
+                border-bottom:1px solid #999;
+                }
+    .gnb > li > a{ display: block;
+                height:30px;
+                line-height:30px;
+                color:#484848;
+                font-size:14px;
+                }
+    
+
+    .visual_in {top:150px; 
+                width:calc(250px + 25vw); }
+    .visual {display: none;}
+
+
+    
+    .menu1 {top:70px;
+            left:20px;
+            }
+
+    .menu2 { bottom:65px; 
+            left:60px;
+            }
+    .menu3 { top:110px; 
+            right:90px;
+            }
+    .menu4 { bottom:110px; 
+            right:40px;
+            }
 
 }
