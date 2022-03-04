@@ -135,7 +135,7 @@ a { color: inherit;}
 .t04 a { background:#b4cef0;}
 
 .t01 a.active { background:#ab70ee; }
-.t02 a.active { background:#56d6ba;}
+.t02 a.active { background:#606463;}
 .t03 a.active { background:#f385a1;}
 .t04 a.active { background:#73abff;}
 
@@ -147,10 +147,10 @@ a { color: inherit;}
 
 .section_inner { }
 .project { font-weight:bold;
-			margin-bottom: 12px;
+			margin:35px 0 10px 0;
 			}
 .sub_title { font-size:14px;
-			margin:8px 0 100px 0;
+			margin:8px 0 50px 0;
 			}
 
 .txt_box {position:absolute;
@@ -162,7 +162,7 @@ a { color: inherit;}
 		}
 
 .txt_box::before { position:absolute;
-				top:180px; 
+				top:210px; 
 				left:50%;
 				transform:translate(-50%);
 				content:"";
@@ -275,7 +275,7 @@ a { color: inherit;}
 		width:450px;
 		padding:35px 0 35px 20px;
 		}
-.txt_box::before {top:155px; }
+.txt_box::before {top:185px; }
 
 .txt_box h2 { font-size: 42px; 
 			margin-left:-5px;
@@ -320,9 +320,9 @@ a { color: inherit;}
 .pc { display: none;}
 
 .bg {  width: 700px;
-	height: 1020px;} 
+	height: 1100px;} 
 
-.file_bg { height:930px;
+.file_bg { height:1000px;
 		top:40px;
 		left:50%;
 		transform:translate(-50%);
@@ -373,7 +373,7 @@ a { color: inherit;}
 		width:500px;
 		padding:20px 0;
 		}
-.txt_box::before { top:135px; 
+.txt_box::before { top:165px; 
 				width:100%;
 				}
 

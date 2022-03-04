@@ -134,7 +134,7 @@ a { color: inherit;}
 .t03 a{ background:#f0b9c7;}
 .t04 a { background:#b4cef0;}
 
-.t01 a.active { background:#ab70ee; }
+.t01 a.active { background:#B682FF; }
 .t02 a.active { background:#56d6ba;}
 .t03 a.active { background:#f385a1;}
 .t04 a.active { background:#73abff;}
@@ -147,10 +147,10 @@ a { color: inherit;}
 
 .section_inner { position: relative; width: 100%;}
 .project { font-weight:bold;
-			margin-bottom: 12px;
+			margin:35px 0 10px 0;
 			}
 .sub_title { font-size:14px;
-			margin:8px 0 100px 0;
+			margin:8px 0 50px 0;
 			}
 
 .txt_box {position:absolute;
@@ -161,7 +161,7 @@ a { color: inherit;}
 		}
 
 .txt_box::before { position:absolute;
-				top:180px; 
+				top:210px; 
 				left:50%;
 				transform:translate(-50%);
 				content:"";
@@ -173,13 +173,12 @@ a { color: inherit;}
 .txt_box h2 { font-size: 50px; 
 			margin-left:-5px;
 			}
-.txt_box .txt_small { font-size: 35px;
+.txt_box .txt_small { font-size: 32px;
 					margin-bottom:12px;} 
 .txt_box p { }
 
 
-.content { line-height:28px;
-		margin-bottom:35px;}
+.content { line-height:28px;}
 .program {}
 .program li { float:left;
 			margin-right:10px;
@@ -282,11 +281,12 @@ a { color: inherit;}
 		width:450px;
 		padding:35px 0 35px 20px;
 		}
-.txt_box::before {top:155px; }
+.txt_box::before {top:175px; }
 
-.txt_box h2 { font-size: 42px; 
+.txt_box h2 { font-size: 38px; 
 			margin-left:-5px;
 			}
+.txt_box .txt_small { font-size: 29px;} 
 .txt_box p {}
 
 .sub_title {margin:10px 0 60px 0;}
@@ -340,9 +340,10 @@ a { color: inherit;}
 @media ( max-width: 1024px) { 
 .mobile { display: block;}
 .pc { display: none;}
+.bg { height:1050px; }
 
 .file_bg { min-width: 400px;
-		height:900px;
+		height:950px;
 		top:40px;
 		left:50%;
 		transform:translate(-50%);
@@ -393,7 +394,7 @@ a { color: inherit;}
 		width:500px;
 		padding:20px 0;
 		}
-.txt_box::before { top:135px; 
+.txt_box::before { top:160px; 
 				width:100%;
 				}
 
@@ -443,14 +444,14 @@ a { color: inherit;}
 @media ( max-width: 768px) {
 
 	
-	.bg { width: 100%;
-		overflow-X: hidden; }
+	.bg { width: 100%;  
+		height:1000px;}
 	.file_bg { min-width: 300px;
-			height:800px;}
+			height:900px;}
 	.txt_box { top:240px ;
 				width:80%;
 			}
-	.txt_box::before { top:140px; }
+	.txt_box::before { top:155px; }
 	.txt_box h2 {font-size:32px;}
 	
 	.txt_box .txt_small { font-size: 22px;
